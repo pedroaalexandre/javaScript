@@ -1,0 +1,33 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: coral;
+    margin-left: 30px;
+}
+
+h2{
+    font-size: 15px;
+    color: rgb(170, 166, 166);
+    margin-left: 30px;
+}
+
+a:visited, a:link {
+    color: cadetblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    color: darkcyan;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    margin: 5px;
+}
+

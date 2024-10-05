@@ -1,0 +1,10 @@
+*{
+    margin: 0px;
+    margin-top: 20px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+}
