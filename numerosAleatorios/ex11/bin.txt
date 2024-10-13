@@ -1,0 +1,45 @@
+for(i = 0; i < 27; i++){
+    cartasBaralho[i] = i + 1;
+}
+
+console.log(cartasBaralho);
+
+document.write(`<p>Cartas jogador 1:</p>`);
+
+for(i = 0; i < 3; i++){
+    var numAletorio = Math.floor(Math.random() * cartasBaralho.length);
+    document.write(`<img src="./cartas/carta${numAletorio}.png" alt="">`);
+    cartasBaralho.splice(numAletorio,1);
+}
+
+console.log(cartasBaralho);
+
+document.write(`<p>Cartas jogador 2:</p>`);
+
+for(i = 0; i < 3; i++){
+    var numAletorio = Math.floor(Math.random() * cartasBaralho.length);
+    document.write(`<img src="./cartas/carta${numAletorio}.png" alt="">`);
+    cartasBaralho.splice(numAletorio,1);
+}
+
+console.log(cartasBaralho);
+
+document.write(`<p>Cartas jogador 3:</p>`);
+
+for(i = 0; i < 3; i++){
+    var numAletorio = Math.floor(Math.random() * cartasBaralho.length);
+    document.write(`<img src="./cartas/carta${numAletorio}.png" alt="">`);
+    cartasBaralho.splice(numAletorio,1);
+}
+
+console.log(cartasBaralho);
+
+document.write(`<p>Cartas jogador 4:</p>`);
+
+for(i = 0; i < 3; i++){
+    var numAletorio = Math.floor(Math.random() * cartasBaralho.length);
+    document.write(`<img src="./cartas/carta${numAletorio}.png" alt="">`);
+    cartasBaralho.splice(numAletorio,1);
+}
+
+console.log(cartasBaralho);
