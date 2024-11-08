@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+body {
+    font-family: Roboto;
+}
+
+h1 {
+    text-align: center;
+    color: #606c38;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: auto;
+    margin-bottom: 5px;
+    list-style: none;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #283618;
+}
