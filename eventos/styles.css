@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    background-color: #edf6f9;
+}
+
+h1 {
+    text-align: center;
+    color: #006d77;
+    margin-top: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.container > div {
+    border-radius: 20px;
+    text-align: center;
+    margin-right: 30px;
+    background: #ffddd2;
+    padding: 20px;
+    padding-top: 320px;
+    transition: ease-in 0.1s all ;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #83c5be;
+    background-color: #ffddd2;
+    transition: ease-in 0.1s all;
+    background-repeat: no-repeat;
+    padding: 310px 100px 15px 100px;
+}
+
+a:hover{
+    color: #006d77;
+    font-weight: bold;
+}
+
+.ex01{
+    background-image: url(./img/exercicio_1.png);
+}
+
+.ex02{
+    background-image: url(./img/exercicio_2.png);
+}
+
+.container > div:hover {
+    transform: scale(105%);
+}
+
