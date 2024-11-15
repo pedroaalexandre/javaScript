@@ -16,9 +16,17 @@ boy.addEventListener("click", function () {
     console.log(nome);
     if(!nome){
         boy.src = "img/nervoso.png";
+        boy.classList.add("nervoso");
         p.innerHTML = "Não me faça perder meu tempo!"
+        boy.addEventListener("mouseout", function(){
+            boy.classList.remove("nervoso");
+        });
     }else{
         boy.src = "img/alegre.png";
+        boy.classList.add("alegre");
         p.innerHTML = `Seja, bem vindo ${nome}!`
+        boy.addEventListener("mouseout", function(){
+            boy.classList.remove("alegre");
+        });
     }
 });
