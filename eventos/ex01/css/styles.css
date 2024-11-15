@@ -10,3 +10,34 @@ body {
     height: 100vh;
     margin: 0;
 }
+
+@keyframes alegre {
+    0%{
+        transform: translateX(0px);
+    }
+    50%{
+        transform: translateX(40px);
+    }
+    100%{
+        transform: translateX(-40px);
+    }
+}
+
+.alegre {
+    animation: alegre 1s infinite;
+}
+
+@keyframes nervoso {
+    0% {
+    }
+    50% {
+      transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+  }
+  
+  .nervoso {
+    animation: nervoso 0.1s infinite;
+  }
