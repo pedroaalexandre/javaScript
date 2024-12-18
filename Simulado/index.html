@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylesIndex.css">
+    <title>Informe o seu perfil</title>
+</head>
+<body>
+    <h1>Qual o seu perfil?</h1>
+
+    <form action="">
+
+        <p>OBS: Todas as informações são de preenchimento obrigatório</p>
+        
+        <div>
+            <label for="">Nome</label>
+            <input type="text" class="nome" id="txtNome">
+        </div>
+
+        <div>
+            <div>
+                <label for="">Idade</label>
+                <input type="number" id="txtIdade">
+            </div>
+
+            <div>
+                <label for="">Qual o seu passatempo predileto?</label>
+                <select name="" id="select">
+                    <option value="0" disabled selected>Selecione</option>
+                    <option value="1">Passear no shopping (fazer compras, etc)</option>
+                    <option value="2">Curtir a natureza (cachoeira, etc)</option>
+                </select>
+            </div>
+        </div>
+
+        <div>
+            <input type="button" value="Ver opções de carro" class="btnForm" id="btnForm">
+            <button type="reset" class="btnForm">Limpar</button>
+        </div>
+    </form>
+
+    <script src="js/scriptIndex.js"></script>
+</body>
+</html>
