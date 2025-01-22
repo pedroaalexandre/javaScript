@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Expressões Regulares</h1>
+    <h3>Aluno: Pedro Augusto da Silva Alexandre</h3>
+    <form action="">
+        <label for="">Números binários</label>
+        <input type="text" placeholder="0 ou 1" id="txtBinario">
+        <input type="button" value="Validar" id="btnValidarBin">
+        <br>
+        <br>
+        <label for="">Números hexadecimais</label>
+        <input type="text" placeholder="(0 - f)" id="txtHexa">
+        <input type="button" value="Validar" id="btnValidarHexa">
+        <br>
+        <br>
+        <label for="">Números decimais</label>
+        <input type="text" placeholder="1,5" id="txtDecimais">
+        <input type="button" value="Validar" id="btnValidarDec">
+        <br>
+        <br>
+        <label for="">Números reais</label>
+        <input type="text" placeholder="10, 1,5, 3.14" id="txtReais">
+        <input type="button" value="Validar" id="btnValidarReal">
+        <br>
+        <br>
+        <label for="">Horário</label>
+        <input type="text" placeholder="00:00:00" id="txtHorario">
+        <input type="button" value="Validar" id="btnValidarHora">
+        <br>
+        <br>
+        <label for="">Data de nascimento</label>
+        <input type="text" placeholder="dd/mm/aaaa ou dd/mm/aa" id="txtNascimento">
+        <input type="button" value="Validar" id="btnValidarNasc">
+        <br>
+        <br>
+        <label for="">CEP</label>
+        <input type="text" placeholder="00.000-000" id="txtCep">
+        <input type="button" value="Validar" id="btnValidarCep">
+        <br>
+        <br>
+        <label for="">CPF</label>
+        <input type="text" placeholder="000.000.000-00" id="txtCpf">
+        <input type="button" value="Validar" id="btnValidarCpf">
+        <br>
+        <br>
+        <label for="">CNPJ</label>
+        <input type="text" placeholder="00.000.000/0000-00" id="txtCnpj">
+        <input type="button" value="Validar" id="btnValidarCnpj">
+        <br>
+        <br>
+        <label for="">Números entre parênteses</label>
+        <input type="text" placeholder="(xxxxx) - quantos números desejar" id="txtParenteses">
+        <input type="button" value="Validar" id="btnValidarParenteses">
+        <br>
+        <br>
+        <label for="">Email</label>
+        <input type="text" placeholder="xxx@yyy.ccc" id="txtEmail">
+        <input type="button" value="Validar" id="btnValidarEmail">
+        <br>
+        <br>
+        <label for="">Endereço (domínio ou IPv4)</label>
+        <input type="text" placeholder="192.168.1.1 ou 255.255.255.255" id="txtEndereco">
+        <input type="button" value="Validar" id="btnValidarIP">
+        <br>
+        <br>
+        <label for="">Altura de uma pessoa</label>
+        <input type="text" placeholder="x.xz ou x,xz (z é opcional)" id="txtAltura">
+        <input type="button" value="Validar" id="btnValidarAltura">
+        <br>
+        <br>
+        <label for="">Nomes próprios</label>
+        <input type="text" placeholder="Pedro (inicial maiúscula)" id="txtNomeProprio">
+        <input type="button" value="Validar" id="btnValidarNome">
+        <br>
+        <br>
+        <label for="">Telefone padrão internacional</label>
+        <input type="text" placeholder="+xx(xx)xxxxx-xxxx" id="txtTelefone">
+        <input type="button" value="Validar" id="btnValidarTel">
+        <br>
+        <br>
+        <label for="">Texto</label>
+        <input type="text" placeholder="IFTM Campus Uberlândia" id="txtTexto">
+        <input type="button" value="Validar" id="btnValidarTexto">
+        <br>
+        <br>
+        <label for="">Números de 1 a 100</label>
+        <input type="text" placeholder="59" id="txtNumero">
+        <input type="button" value="Validar" id="btnValidarNum">
+        <br>
+        <br>
+        <label for="">Placa de carro</label>
+        <input type="text" placeholder="BRA2E19 (Tudo maiúsculo)" id="txtPlaca">
+        <input type="button" value="Validar" id="btnValidarPlaca">
+        <br>
+        <br>
+        <label for="">Vogais e/ou "b", "c", "d"</label>
+        <input type="text" placeholder="'dado', 'caco'" id="txtVogais">
+        <input type="button" value="Validar" id="btnValidarVogais">
+        <br>
+        <br>
+        <label for="">Faturamento de uma empresa</label>
+        <input type="text" placeholder="'R$408,52', 'R$100.987,00'" id="txtFaturamento">
+        <input type="button" value="Validar" id="btnValidarFaturamento">
+        <br>
+        <br>
+        <label for="">Nro Mátricula 1 - x é um dígito e y um caracter alfanumérico</label>
+        <input type="text" placeholder="IFTM-xxx/xxx-yy ou iftm-xxx/xxx-yy" id="txtMatricula1">
+        <input type="button" value="Validar" id="btnValidarMat1">
+        <br>
+        <br>
+        <label for="">Nro Mátricula 2 - x é um dígito</label>
+        <input type="text" placeholder="MT-xx.xxx-IFTM" id="txtMatricula2">
+        <input type="button" value="Validar" id="btnValidarMat2">
+        <br>
+        <br>
+        <label for="">Nro Mátricula 3 - x é um dígito, letras padrão maiúscula ou minúscula, Y é UBERLÂNDIA CENTRO ou UBERLÂNDIA. </label>
+        <input type="text" placeholder="MT-xx.xxx-IFTM Y" id="txtMatricula3">
+        <input type="button" value="Validar" id="btnValidarMat3">
+        <br>
+        <br>
+    </form>
+    <script src="/js/script.js"></script>
+</body>
+</html>
