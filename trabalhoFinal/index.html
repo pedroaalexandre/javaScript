@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/styles.css">
+    <title>Par ou Ímpar</title>
+</head>
+<body>
+    <header>
+        <!-- Select dificuldade -->
+         <div>
+            <p class="defColor">Nível: </p>
+            <select name="" class="options" id="dificuldade">
+                <option value="">Selecione</option>
+                <option value="">Fácil</option>
+                <option value="">Médio</option>
+                <option value="">Difícil</option>
+            </select>
+        </div>
+
+        <!-- Contagem regressiva do tempo -->
+        <div>
+            <p class="defColor">Tempo: <span class="infoColor" id="temporizador">00:00</span></p>
+        </div>
+
+        <!-- Botões de controle -->
+         <div>
+            <form action="">
+                <input type="button" value="Iniciar" id="play" class="options">
+                <input type="button" value="Pausar" id="pause" class="options">
+                <input type="button" value="Parar" id="stop" class="options">
+            </form>
+        </div>
+    </header>
+    <main>
+        <!-- Número a ser sorteado -->
+        <p class="numeroSort"><span id="numeroSort">_</span></p>
+    </main>
+    <footer>
+        <!-- Quantidade de acertos do jogador + porcentagem (acertos / Numeros pares sorteados * 100) -->
+        <div>
+            <p class="defColor">Acertos: <span class="infoColor" id="qntAcertos">0</span> (<span class="infoColor" id="porcentAcertos">0.0</span>%)</p>
+        </div>
+        <!-- Quantidade de vezes que o jogador clicou em um número ímpar -->
+        <div>
+            <p class="defColor">Erros: <span class="infoColor" id="qntErros">0</span></p>
+        </div>
+        <!-- Quantidade de números pares já sorteados -->
+        <div>
+            <p class="defColor">Números pares sorteados: <span class="infoColor" id="qntNumPares">0</span></p>
+        </div>
+    </footer>
+    <script src="/js/script.js"></script>
+</body>
+</html>
